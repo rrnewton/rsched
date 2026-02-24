@@ -5,6 +5,7 @@ edition = "2021"
 
 [features]
 default = []
-user = []
+user = ["aya"]
 
 [dependencies]
+aya = { version = "0.13", optional = true }
